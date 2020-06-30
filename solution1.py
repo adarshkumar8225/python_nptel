@@ -1,4 +1,5 @@
 #function for  question 1.
+
 def threesquares(m):
   if(m<0):
     return(False)
@@ -9,7 +10,9 @@ def threesquares(m):
             return(False)
       return(True)
 
+
 #function for question 2.
+
 def repfree(s):
   for i in range(0,len(s)):
     for j in range(i+1,len(s)):
